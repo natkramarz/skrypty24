@@ -45,7 +45,7 @@ save_game() {
 
 load_game() {
     if [ -f "saved_game.txt" ]; then
-        ead -r -a fields <<< "$(head -n 1 saved_game.txt | tr '|' ' ')"
+        read -r -a fields <<< "$(head -n 1 saved_game.txt | tr '|' ' ')"
         is_x_turn=$(tail -n 1 saved_game.txt)
         echo "Game loaded successfully."
     else
