@@ -1,0 +1,60 @@
+version: "3.1"
+
+stories:
+- story: Ask for Restaurant Hours
+  steps:
+    - intent: ask_restaurant_hours
+    - action: action_provide_restaurant_hours
+
+- story: Confirm Restaurant Open on Specific Date/Time
+  steps:
+    - intent: confirm_restaurant_availability
+      entities:
+        - day: "Sunday"
+        - time: "18:00"
+    - action: action_check_restaurant_availability
+
+- story: Confirm Restaurant Closed on Specific Date/Time
+  steps:
+    - intent: negative_confirm_restaurant_availability
+      entities:
+        - day: "Saturday"
+        - time: "20:00"
+    - action: action_check_restaurant_availability
+
+- story: menu path 
+  steps:
+  - intent: menu
+  - action: action_list_menu
+
+- story: menu item path 
+  steps:
+  - intent: order_food
+  - action: action_order_item
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye

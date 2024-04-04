@@ -1,0 +1,131 @@
+nlu:
+- intent: order_food
+  examples: |
+    - I would like to order [Lasagne](menu_item)
+    - Can I have a [pizza](menu_item)?
+    - I want the [Tiramisu dessert](menu_item)
+    - I would like to order [Hot-dog](menu_item) sounds good
+    - I would like to order [Spaghetti Carbonara](menu_item)
+    - I want the [Tiramisu](menu_item)
+    - [Carbonara](menu_item) sounds good
+
+
+- intent: ask_restaurant_hours
+  examples: |
+    - When does the restaurant open?
+    - What are your hours of operation?
+
+- intent: confirm_restaurant_availability
+  examples: |
+    - Is the restaurant open on [Sunday](day) at [18:00](time)?
+    - Are you open on [Friday](day) at [13:00](time)? 
+
+- intent: negative_confirm_restaurant_availability
+  examples: |
+    - Is the restaurant closed on [Saturday](day) at [20:00](time)?
+    - Can I come in on [Monday](day) at [6:00](time)?
+    - Are you closed [Thursday](day) at [14:00](time)?
+    - Can I come on [Tuesday](day) at [6:00](time)?
+    - Is the restaurant closed on [Wednesday](day) at [20:00](time)?
+
+- intent: menu 
+  examples: |
+    - What are the menu options?
+    - menu 
+    - Can you show me the menu?
+    - List of items on the menu, please
+    - Tell me about your menu.
+    - I'd like to see what's on the menu.
+    - What kind of food do you have?
+    - Show me what I can order.
+    - Menu, please
+    - Please list the menu items
+
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
