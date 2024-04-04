@@ -5,3 +5,9 @@
 :white_check_mark: 4.0 [Link do commita 2](https://github.com/natkramarz/skrypty24/commit/a007954954e3eeb12fa78f47836650152263d256)
 
 Kod: zadanie1/tic-tac-toe.sh
+
+**Zadanie 2** Kółko i krzyżyk 
+
+:white_check_mark: 3.0 i 3.5 [Link do commita 1](https://github.com/natkramarz/skrypty24/commit/3a2079705bd174a1b25c9f7c80686eaf74ae0e0a)
+
+Kod: zadanie2/
