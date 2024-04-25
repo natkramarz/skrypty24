@@ -14,6 +14,7 @@ Kod: zadanie2/
 
 
 **Zadanie 3** JS: Sklep w ReactJS + NodeJS
+
 :white_check_mark: 3.0  [Link do commita 1](https://github.com/natkramarz/skrypty24/commit/47168206535996b595d026f298f17a269541b72a)
 
 Kod: zadanie3/
