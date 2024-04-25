@@ -14,6 +14,6 @@ Kod: zadanie2/
 
 
 **Zadanie 3** JS: Sklep w ReactJS + NodeJS
-:white_check_mark: 3.0  [Link do commita 1]([https://github.com/natkramarz/skrypty24/commit/3a2079705bd174a1b25c9f7c80686eaf74ae0e0a](https://github.com/natkramarz/skrypty24/commit/47168206535996b595d026f298f17a269541b72a))
+:white_check_mark: 3.0  [Link do commita 1](https://github.com/natkramarz/skrypty24/commit/47168206535996b595d026f298f17a269541b72a)
 
 Kod: zadanie3/
