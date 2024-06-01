@@ -18,3 +18,9 @@ Kod: zadanie2/
 :white_check_mark: 3.0  [Link do commita 1](https://github.com/natkramarz/skrypty24/commit/47168206535996b595d026f298f17a269541b72a)
 
 Kod: zadanie3/
+
+**Zadanie 4** JS: REST API pod sklep Lua
+
+:white_check_mark: 3.0 i 3.5  [Link do commita 1](https://github.com/natkramarz/skrypty24/commit/e84ac63d365a939c26bc25bd230ee2fd780ef6aa)
+
+Kod: zadanie4/
