@@ -23,4 +23,4 @@ Kod: zadanie3/
 
 :white_check_mark: 3.0 i 3.5  [Link do commita 1](https://github.com/natkramarz/skrypty24/commit/e84ac63d365a939c26bc25bd230ee2fd780ef6aa)
 
-Kod: zadanie3/
+Kod: zadanie4/
