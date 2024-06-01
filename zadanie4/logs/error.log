@@ -1,0 +1,7 @@
+2024/06/01 21:11:36 [alert] 14518#14518: lua_code_cache is off; this will hurt performance in /home/natalia/tic-tac-toe/zadanie4/nginx.conf.compiled:20
+2024/06/01 21:12:28 [alert] 14713#14713: lua_code_cache is off; this will hurt performance in /home/natalia/tic-tac-toe/zadanie4/nginx.conf.compiled:20
+2024/06/01 21:25:15 [alert] 16541#16541: lua_code_cache is off; this will hurt performance in /home/natalia/tic-tac-toe/zadanie4/nginx.conf.compiled:20
+2024/06/01 21:29:08 [alert] 17281#17281: lua_code_cache is off; this will hurt performance in /home/natalia/tic-tac-toe/zadanie4/nginx.conf.compiled:20
+2024/06/01 21:32:48 [alert] 19093#19093: lua_code_cache is off; this will hurt performance in /home/natalia/tic-tac-toe/zadanie4/nginx.conf.compiled:20
+2024/06/01 22:28:37 [alert] 29583#29583: lua_code_cache is off; this will hurt performance in /home/natalia/tic-tac-toe/zadanie4/nginx.conf.compiled:20
+2024/06/01 22:29:20 [alert] 29819#29819: lua_code_cache is off; this will hurt performance in /home/natalia/tic-tac-toe/zadanie4/nginx.conf.compiled:20
