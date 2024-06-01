@@ -1,6 +1,7 @@
 return function(app)
     local json_params = require("lapis.application").json_params
     local Game = require("models.game")
+    local Category = require("models.category")
   
     app:post("/games", json_params(function(self)
       local category = Category:find(self.params.category_id)
@@ -39,12 +40,20 @@ return function(app)
       if not category then
        return { status = 404, json = { error = "Category not found" } }
       end
-      game:update({
-        category_id = self.params.category_id,
-        name = self.params.name,
-        image_url = self.params.image_url,
-        price = self.params.price
-      })
+      local ok, err = pcall(function()
+        game:update({
+          category_id = self.params.category_id,
+          name = self.params.name,
+          image_url = self.params.image_url,
+          price = self.params.price
+        })
+      end)
+  
+      if not ok then
+        print("Error updating game:", err)
+        return { status = 500, json = { error = "Failed to update game", details = err } }
+      end
+  
       return { json = game }
     end))
   
